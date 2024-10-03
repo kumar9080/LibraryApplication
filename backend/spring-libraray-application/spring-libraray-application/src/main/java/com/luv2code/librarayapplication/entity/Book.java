@@ -1,7 +1,7 @@
 package com.luv2code.librarayapplication.entity;
 
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
@@ -33,6 +33,6 @@ public class Book {
     private String category;
 
     @Column(name = "img")
-    private String image;
+    private String img;
 
 }
