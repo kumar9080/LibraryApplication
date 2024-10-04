@@ -57,3 +57,4 @@ const Pagination: React.FC<{
     </div>
   );
 };
+export default Pagination
